@@ -1,0 +1,111 @@
+.headerBg {
+    background-image: url('images/bannerBg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: auto;
+}
+
+.introText {
+    padding: 160px 20px 30px 210px;
+    color: #fff;
+    text-align: center;
+}
+
+.introText h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.introText p {
+    font-size: 30px;
+}
+
+.cityImg {
+    padding: 60px;
+}
+
+.formBox {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.formBox input {
+    border: none;
+    border-bottom: 1px solid #000;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.header {
+    background: #fff;
+    padding: 10px;
+}
+
+.social .imgCont img {
+    width: 45px;
+    vertical-align: bottom;
+}
+
+.imgCont {
+    width: auto;
+    /* display: inline-block; */
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.dataCont {
+    /* display: inline-block; */
+    width: auto;
+    float: left;
+    margin: 0px 20px;
+}
+
+.dataCont p {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    color: #525151;
+}
+
+.fb span {
+    color: #2c5299;
+}
+
+.google span {
+    color: #fbbc06;
+}
+
+.rlogo {
+    height: 50px;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.dataCont.hits span {
+    background-color: red;
+}
+
+.dataCont.hits span {
+    background-color: #ec4127;
+    padding: 3px 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.hits span:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
